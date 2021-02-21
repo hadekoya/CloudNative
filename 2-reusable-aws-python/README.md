@@ -4,9 +4,9 @@ This script shows how to use AWS CLI and python to automate AWS cloud and creae 
 
 ## Requirement
 
-- Python
+- Python 3
 - pip - to install boto3 and pylint
-- AWS CLI - you should have configired your AWS CLI
+- AWS CLI - you should have configured your AWS CLI
 
 ## Dependencies
 
@@ -22,4 +22,4 @@ This script shows how to use AWS CLI and python to automate AWS cloud and creae 
 
 ## Execute script
 
-`python s3bucket.py samples3bucket`
+`python3 s3bucket.py samples3bucket`
