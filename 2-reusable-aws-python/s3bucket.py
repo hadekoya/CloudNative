@@ -1,3 +1,6 @@
+"""
+Using python to create an S3 bucket in AWS
+"""
 import boto3
 import sys
 
