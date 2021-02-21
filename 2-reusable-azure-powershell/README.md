@@ -27,6 +27,8 @@ Install-Module -Name Az -AllowClobber -Scope CurrentUser
 
 ## Execution
 
-New-ResourceGroup -rgName sampleresouregroup -location eastus2
+In visual studio code, highlight function, right click and run selection.
+Then execute instruction below in terminal window (Powershell Integrated)
+`New-ResourceGroup -rgName sampleresouregroup -location eastus2`
 
 ## Linting
