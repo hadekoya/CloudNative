@@ -5,10 +5,15 @@ Objective to create resource groups using powershell
 ## Pre-requisite
 
 - Powershell
+
   `brew install --cask powershell`
+
 - Azure CLI
+
   `brew update && brew install azure-cli`
+
   `az login`
+
 - [Install the Azure PowerShell module](https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-5.5.0#code-try-3)
 
 ```powershell
@@ -21,7 +26,9 @@ Install-Module -Name Az -AllowClobber -Scope CurrentUser
 }
 ```
 
-- Connect AZ powershell to Azure `Connect-AzAccount`
+- Connect AZ powershell to Azure
+
+`Connect-AzAccount`
 
 ## Execution
 
@@ -31,3 +38,7 @@ Then execute instruction below in terminal window (Powershell Integrated)
 `New-ResourceGroup -rgName sampleresouregroup -location eastus2`
 
 ## Linting
+
+Execute scriptanalyzer using command in linting.ps1
+
+`Invoke-ScriptAnalyzer -Path .`
