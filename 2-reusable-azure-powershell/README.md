@@ -42,3 +42,9 @@ Then execute instruction below in terminal window (Powershell Integrated)
 Execute scriptanalyzer using command in linting.ps1
 
 `Invoke-ScriptAnalyzer -Path .`
+
+## Unit test
+
+Execute pester
+
+`Invoke-Pester .\New-ResourceGroup-test.ps1`
