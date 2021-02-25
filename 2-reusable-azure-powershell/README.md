@@ -30,6 +30,10 @@ Install-Module -Name Az -AllowClobber -Scope CurrentUser
 
 `Connect-AzAccount`
 
+- Pester for unit testing Powershell
+
+`Install-Module Pester -Force -SkipPublisherCheck`
+
 ## Execution
 
 In visual studio code, highlight function, right click and run selection.
@@ -45,6 +49,6 @@ Execute scriptanalyzer using command in linting.ps1
 
 ## Unit test
 
-Execute pester
+## Execute pester
 
 `Invoke-Pester .\New-ResourceGroup-test.ps1`
